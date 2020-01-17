@@ -5,6 +5,6 @@ export default function StrikeButton(props) {
     const { addStrike } = props;
 
     return (
-        <button onClick={addStrike}>Strike</button>
+        <button data-testid="btnStrike" onClick={addStrike}>Strike</button>
     )
 }

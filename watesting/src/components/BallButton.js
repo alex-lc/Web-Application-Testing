@@ -5,6 +5,6 @@ export default function BallButton(props) {
     const { addBall } = props;
 
     return (
-        <button onClick={addBall}>Ball</button>
+        <button data-testid="btnBall" onClick={addBall}>Ball</button>
     )
 }

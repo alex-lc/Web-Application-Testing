@@ -5,6 +5,6 @@ export default function FoulButton(props) {
     const { addFoul } = props;
 
     return (
-        <button onClick={addFoul}>Foul</button>
+        <button data-testid="btnFoul" onClick={addFoul}>Foul</button>
     )
 }
